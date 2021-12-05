@@ -17,15 +17,13 @@ nav a {
     color: lightblue;
     text-decoration: none;
     padding: 6px;
-    margin: 0 4px;
+    margin: auto;
     display: inline-block;
 }
 
 nav a:hover {
     color: lightskyblue;
     border-bottom: 1px solid;
-    margin: 2px;
-    padding: 6px;
 }
 
 nav a:active {
@@ -76,7 +74,7 @@ section {
 }
 
 section > h2 > ul {
-    display: inline-block;
+    display: grid;
 }
 
 article {
