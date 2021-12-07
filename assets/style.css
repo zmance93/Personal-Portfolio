@@ -99,3 +99,8 @@ article:nth-child(1){
 width: 100%;
 height: 290px;
 }
+
+ul {
+    display: inline;
+    padding: 0 13px;
+}
